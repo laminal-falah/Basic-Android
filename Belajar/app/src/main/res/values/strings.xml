@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Belajar</string>
+    <string name="hello">Hello</string>
+    <string name="btn">Click</string>
+    <string name="btn_snack">Snack Show</string>
+    <string name="text_move_detail">Move Detail</string>
+    <string name="text_move_list">Move List</string>
+    <string name="text_move_custom">Move Custom</string>
+    <string name="hint_input">Text Field</string>
+    <string name="text_in_fragment">Text Fragment</string>
+    <string name="text_in_detail">Detail Activity</string>
+    <string name="btn_submit">Submit</string>
+</resources>

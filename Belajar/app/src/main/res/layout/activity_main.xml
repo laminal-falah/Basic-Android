@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/root"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".MainActivity">
+
+    <FrameLayout
+            android:id="@+id/fl_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello"
+            android:textSize="20sp"
+    />
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_move_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/text_move_detail"
+            android:textColor="@color/colorAccent"
+            app:backgroundTint="@color/colorPrimaryDark"
+            app:rippleColor="@color/colorAccent" />
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_move_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/text_move_list"
+            android:textColor="@color/colorAccent"
+            app:backgroundTint="@color/colorPrimaryDark"
+            app:rippleColor="@color/colorAccent" />
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_move_custom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/text_move_custom"
+            android:textColor="@color/colorAccent"
+            app:backgroundTint="@color/colorPrimaryDark"
+            app:rippleColor="@color/colorAccent" />
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_click"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/btn"
+            android:textColor="@color/colorAccent"
+            app:backgroundTint="@color/colorPrimaryDark"
+            app:rippleColor="@color/colorAccent" />
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_show_snack_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/btn_snack"
+            android:textColor="@color/colorAccent"
+            app:backgroundTint="@color/colorPrimaryDark"
+            app:rippleColor="@color/colorAccent" />
+
+</LinearLayout>

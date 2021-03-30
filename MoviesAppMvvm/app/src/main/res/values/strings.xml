@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MoviesAppMvvm</string>
+    <string name="paging_name">Paging</string>
+    <string name="title_detail">Title</string>
+</resources>
